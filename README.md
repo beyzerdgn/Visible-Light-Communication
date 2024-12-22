@@ -3,7 +3,7 @@
 This project aims to develop a laser light communication system between two computers using two Arduinos. The system uses an LDR (Light Dependent Resistor) module and a Laser Module for data transmission. The system consists of two main parts: Sender and Receiver.
 
 ## Project Overview
-In the project, the Sender system converts the characters from the ASCII table into binary form and transmits them using laser light. The Receiver system detects this laser light and decodes the incoming signal to retrieve the character in ASCII format.
+In the project, the Sender system converts the characters from the ASCII table into binary form and transmits them using laser light. The Receiver system detects this laser light and decodes the incoming signal to retrieve the character in ASCII format. The communication is based on serial data transmission, where bits are sent one at a time through the laser module and received by the LDR module on the receiver side.
 
 
 ### Sender System
